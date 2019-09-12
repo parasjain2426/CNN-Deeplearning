@@ -65,7 +65,3 @@ model.compile(loss='binary_crossentropy',
               metrics=['accuracy'])
 
 model.fit(X, ytrain, batch_size=32,epochs=3, validation_split=0.3)
-
-import numpy as np
-x=np.array([[2],[3],[4],[5]])
-y=np.array([[1],[2],[3],[4]])
